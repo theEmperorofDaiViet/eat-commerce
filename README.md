@@ -17,8 +17,8 @@
         <li><a href="#project-setup">Project Setup</a></li>
       </ul>
     </li>
+    <li><a href="#key-features">Key Features</li>
     <li><a href="#api-documentation">API Documentation</li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -127,15 +127,43 @@ Open MySQL or H2 and create a empty database with the name specified above.
     }
   ```
 ### Connect MySQL Database with Power BI
+* <b>Step 1:</b> Download and install [*Power BI Desktop*](https://powerbi.microsoft.com/en-us/downloads/)
+* <b>Step 2:</b> Open Power BI Desktop, select *Get Data* &rarr; *More* &rarr; *MySQL*
+* <b>Step 3:</b> In the dialog appear, enter the hostname and the name of the database
+* <b>Step 4:</b> Enter username and password of the DBMS
+* <b>Step 5:</b> Select the tables which will be connect to Power BI.
+
+:arrow_right_hook: Now you can visualize your data, uncover insights and make better decisions!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Key Features
+
+## Customer
+* Register
+* Log in/Log out
+* Browse products by name or category
+* View product details
+* Add a product to cart
+* Place and pay an order (powered by [*Stripe*](https://stripe.com/))
+* Ratings and comments
+* View purchase history
+* Add a product to bookmark
+
+## Merchant
+* Manage categories
+* Manage products
+* View all orders
+* View statistics and data visualization (by [*Power BI*](https://powerbi.microsoft.com/en-us/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # API Documentation
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-# Usage
+<p align="center">
+    <img src="src/main/resources/static/images/api-doc-1.png">
+    <img src="src/main/resources/static/images/api-doc-2.png">
+    <img src="src/main/resources/static/images/api-doc-3.png">
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
